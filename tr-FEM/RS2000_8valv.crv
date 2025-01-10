@@ -1,0 +1,119 @@
+;Ford Escort RS2000 8-valve. Tuned rally/racing
+;Created Noose_ITO 2001
+;max_torque=230 N*m
+
+
+curve
+{
+  xname=Engine RPM
+  yname=Normalized torque (Nm)
+  xsteps=10
+  ysteps=10
+  xmin=0
+  ymin=0
+  xmax=11000
+  ymax=1
+  points=20
+  point0
+  {
+    x=1000.000000
+    y=0.50
+  }
+  point1
+  {
+    x=2000
+    y=0.68
+  }
+  point2
+  {
+    x=2500
+    y=0.73
+  }
+  point3
+  {
+    x=3000
+    y=0.87
+  }
+  point4
+  {
+    x=3500
+    y=0.87
+  }
+  point5
+  {
+    x=4000
+    y=0.96
+  }
+  point6
+  {
+    x=4500
+    y=1.00
+  }
+  point7
+  {
+    x=5000
+    y=1.00
+  }
+  point8
+  {
+    x=5500
+    y=0.97
+  }
+  point9
+  {
+    x=6000
+    y=0.93
+  }
+  point10
+  {
+    x=6500
+    y=0.85
+  }
+  point11
+  {
+    x=7000
+    y=0.79
+  } 
+  point12
+  {
+    x=7500
+    y=0.72
+  }
+  point13
+  {
+    x=8000
+    y=0.64
+  }
+  point14
+  {
+    x=8500
+    y=0.12
+  }
+  point15
+  {
+    x=9000
+    y=0.07
+  }
+  point16
+  {
+    x=9500
+    y=0.01
+  }
+  point17
+  {
+    x=10000
+    y=0.00
+  }
+  point18
+  {
+    x=10500
+    y=0.00
+  }
+  point19
+  {
+    x=11000
+    y=0.00
+  }
+
+
+}

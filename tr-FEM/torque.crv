@@ -1,0 +1,57 @@
+curve
+{
+  xname=Engine RPM
+  yname=Normalized torque (Nm)
+  xsteps=10
+  ysteps=10
+  xmin=0
+  ymin=0
+  xmax=10000
+  ymax=1
+  points=9
+  point0
+  {
+    x=1000.000000
+    y=0.600000
+  }
+  point1
+  {
+    x=1833.333374
+    y=0.717143
+  }
+  point2
+  {
+    x=3416.666748
+    y=0.848571
+  }
+  point3
+  {
+    x=5216.666504
+    y=0.951429
+  }
+  point4
+  {
+    x=6866.666504
+    y=1.000000
+  }
+  point5
+  {
+    x=8033.333496
+    y=0.942857
+  }
+  point6
+  {
+    x=8800.000000
+    y=0.800000
+  }
+  point7
+  {
+    x=9250.000000
+    y=0.562857
+  }
+  point8
+  {
+    x=10000.000000
+    y=0.000000
+  }
+}
