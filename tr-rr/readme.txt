@@ -1,4 +1,4 @@
-## Autor(S) ##
+## Author(S) ##
 
 * (C) TerraRoot
 
@@ -12,7 +12,7 @@ TR RR
 
 ## Car Category ##
 
-Preview
+Lemons ClassB
 
 ## Car Folder ##
 
