@@ -3,8 +3,13 @@
         TR-RR.xml
  
         Speed-Dreams V2.3+ setup file
-        Updated:  2025-01-014
+        Updated:  2025-01-015
         Author: TerraRoot Lande
+        
+        todo
+        bounding box
+        rpm scale? (rev counter)
+        
  
 -->
 
@@ -91,7 +96,7 @@
     <attnum name="overall length" unit="m" val="4.43" />
     <attnum name="overall width" unit="m" val="1.9" />
     <attnum name="mass" unit="kg" val="550.0" />
-    <attnum name="GC height" unit="m" val="0.20" />
+    <attnum name="GC height" unit="m" val="0.25" />
 
     
     <attnum name="front-rear weight repartition" val="0.4" />
@@ -421,7 +426,7 @@
   </section>
 
   <section name="Front Anti-Roll Bar">
-    <attnum max="100" min="0" name="spring" unit="kN/m" val="30" />
+    <attnum max="100" min="0" name="spring" unit="kN/m" val="8" />
     <attnum name="suspension course" unit="m" val="0.4" />
     <attnum name="bellcrank" min="0" max="40" val="1.0" />
   </section>
@@ -433,53 +438,53 @@
   </section>
 
   <section name="Front Right Suspension">
-    <attnum max="500" min="0" name="spring" unit="kN/m" val="18" />
+    <attnum max="500" min="0" name="spring" unit="kN/m" val="12" />
     <attnum max="0.5" min="0.001" name="suspension course" unit="m" val="0.4" />
     <attnum name="bellcrank" min="0.5" max="5" val="1.0" />
     <attnum max="100" min="0" name="packers" unit="mm" val="0" />
-    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="12" />
-    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="13" />
+    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="4" />
+    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="4" />
     <attnum max="50" min="0" name="fast bump" unit="kN/m/s" val="4" />
-    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4.2" />
+    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4" />
     <attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
     <attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
   </section>
 
   <section name="Front Left Suspension">
-    <attnum max="500" min="0" name="spring" unit="kN/m" val="18" />
+    <attnum max="500" min="0" name="spring" unit="kN/m" val="12" />
     <attnum max="0.5" min="0.001" name="suspension course" unit="m" val="0.4" />
     <attnum name="bellcrank" min="0.5" max="5" val="1.0" />
     <attnum max="100" min="0" name="packers" unit="mm" val="0" />
-    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="12" />
-    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="13" />
+    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="4" />
+    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="4" />
     <attnum max="50" min="0" name="fast bump" unit="kN/m/s" val="4" />
-    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4.2" />
+    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4" />
     <attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
     <attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
   </section>
 
   <section name="Rear Right Suspension">
-    <attnum max="500" min="0" name="spring" unit="kN/m" val="20" />
+    <attnum max="500" min="0" name="spring" unit="kN/m" val="12" />
     <attnum max="0.5" min="0.001" name="suspension course" unit="m" val="0.4" />
     <attnum name="bellcrank" min="0.5" max="5" val="1.0" />
     <attnum max="100" min="0" name="packers" unit="mm" val="0" />
-    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="15" />
-    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="16" />
+    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="4" />
+    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="4" />
     <attnum max="50" min="0" name="fast bump" unit="kN/m/s" val="4" />
-    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4.1" />
+    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4" />
     <attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
     <attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
   </section>
 
   <section name="Rear Left Suspension">
-    <attnum max="500" min="0" name="spring" unit="kN/m" val="20" />
+    <attnum max="500" min="0" name="spring" unit="kN/m" val="12" />
     <attnum max="0.5" min="0.001" name="suspension course" unit="m" val="0.4" />
     <attnum name="bellcrank" min="0.5" max="5" val="1.0" />
     <attnum max="100" min="0" name="packers" unit="mm" val="0" />
-    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="15" />
-    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="16" />
+    <attnum max="100" min="0" name="slow bump" unit="kN/m/s" val="4" />
+    <attnum max="100" min="0" name="slow rebound" unit="kN/m/s" val="4" />
     <attnum max="50" min="0" name="fast bump" unit="kN/m/s" val="4" />
-    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4.1" />
+    <attnum max="50" min="0" name="fast rebound" unit="kN/m/s" val="4" />
     <attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
     <attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
   </section>
