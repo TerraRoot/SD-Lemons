@@ -68,7 +68,7 @@
   </section>
 
   <section name="Car">
-    <attstr name="category" val="free"/>
+    <attstr name="category" val="Lemons-ClassB"/>
     <attnum name="body length" unit="m" val="3.7"/>
     <attnum name="body width" unit="m" val="1.6"/>
     <attnum name="body height" unit="m" val="1.6"/>

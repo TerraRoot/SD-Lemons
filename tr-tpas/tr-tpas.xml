@@ -61,7 +61,7 @@
   </section>
 
   <section name="Car">
-    <attstr name="category" val="Track-FWD-GrB"/>    
+    <attstr name="category" val="Lemons-ClassB"/>    
     <attnum name="body length" min="4.5" max="5.0" unit="m" val="4.64"/>
     <attnum name="body width" min="1.2" max="2.0" unit="m" val="2.0"/>
     <attnum name="body height" min="1.1" max="3.0" unit="m" val="1.27"/>
