@@ -26,10 +26,10 @@ escort mk1, very low quality, now working
 tr-four  
 Quattro S1, good quality model, converted badly, working!  
  
-tr-lambo
+tr-lambo  	
 model i found and was unable to contact creator, Working! 
  
-tr-primera
+tr-primera  	
 touring car? not working  
  
 tr-s13  
