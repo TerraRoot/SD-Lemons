@@ -32,8 +32,8 @@ tr-tpas
 tr-trike  
 	ford coupe, three wheeler experiment, not working	
 tr-punto
-
-tr-bajaj	
+	good quality model, not working
+	
 
 Created my self:
 tr-frame
@@ -48,4 +48,5 @@ tr-starlet
 	toyota starlet ep70, one of mine IRL, not working.
 tr-truck
 	based on nissan D21, wanted a tyco bandit (RC toy) not finished but, working!
-
+tr-bajaj
+	one that i own myself still, working!
