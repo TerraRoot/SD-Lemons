@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- 
-    file        : ae86.xml
-    created     : Fri Nov 22 20:55:46 CET 2002
-    copyright   : (C) 2002 by Eric Espi                        
-    email       : Eric.Espie@torcs.org   
-    version     : $Id: baja-bug.xml,v 1.6 2004/01/18 11:28:06 torcs Exp $                                  
+		tr-ae86.xml
+		
+        Speed-Dreams V2.3+ setup file
+        Updated:  2025-01-015
+        Author: TerraRoot Lande                                  
 -->
 
 <!--    This program is free software; you can redistribute it and/or modify  -->
@@ -66,7 +66,7 @@
     <attnum name="overall length" unit="m" val="3.8"/>
     <attnum name="overall width" unit="m" val="1.8"/>
     <attnum name="mass" unit="kg" val="950.0"/>
-    <attnum name="GC height" unit="m" val="0.35"/>
+    <attnum name="GC height" unit="m" val="0.3"/>
 
     <!-- weight bias -->
     <attnum name="front-rear weight repartition" val="0.5"/>
@@ -118,7 +118,7 @@
   </section>
 
   <section name="Engine">
-    <attnum name="capacity" unit="l" val="1.0" />
+    <attnum name="capacity" unit="l" val="1.6" />
     <attnum name="cylinders" val="4" />
     <attstr in="v,l,h,w" name="shape" val="l" />
     <attstr in="front,front-mid,mid,rear-mid,rear," name="position" val="rear" />
@@ -229,11 +229,6 @@
         <attnum name="efficiency" val="0.950" />
       </section>
 
-      <section name="6">
-        <attnum max="5" min="0" name="ratio" val="1.27" />
-        <attnum name="inertia" val="0.0064" />
-        <attnum name="efficiency" val="0.983" />
-      </section>
     </section>
   </section>
 
@@ -254,13 +249,13 @@
   </section>
 
   <section name="Front Axle">
-    <attnum max="2.5" min="0.5" name="xpos" val="1.25" />
+    <attnum max="2.5" min="0.5" name="xpos" val="1.45" />
     <attnum name="inertia" unit="kg.m2" val="0.0056" />
     <attnum max="0.5" min="0" name="roll center height" unit="m" val="0.4" />
   </section>
 
   <section name="Rear Axle">
-    <attnum max="-0.5" min="-2.5" name="xpos" val="-0.85" />
+    <attnum max="-0.5" min="-2.5" name="xpos" val="-1.05" />
     <attnum name="inertia" unit="kg.m2" val="0.0056" />
     <attnum max="0.5" min="0" name="roll center height" unit="m" val="0.4" />
   </section>
@@ -468,28 +463,28 @@
 
   <section name="Front Right Brake">
     <attnum name="disk diameter" unit="mm" val="200" />
-    <attnum name="piston area" unit="cm2" val="7" />
+    <attnum name="piston area" unit="cm2" val="25" />
     <attnum name="mu" val="0.25" />
     <attnum name="inertia" unit="kg.m2" val="0.1141" />
   </section>
 
   <section name="Front Left Brake">
     <attnum name="disk diameter" unit="mm" val="200" />
-    <attnum name="piston area" unit="cm2" val="7" />
+    <attnum name="piston area" unit="cm2" val="25" />
     <attnum name="mu" val="0.25" />
     <attnum name="inertia" unit="kg.m2" val="0.1141" />
   </section>
 
   <section name="Rear Right Brake">
     <attnum name="disk diameter" unit="mm" val="170" />
-    <attnum name="piston area" unit="cm2" val="7" />
+    <attnum name="piston area" unit="cm2" val="20" />
     <attnum name="mu" val="0.25" />
     <attnum name="inertia" unit="kg.m2" val="0.1141" />
   </section>
 
   <section name="Rear Left Brake">
     <attnum name="disk diameter" unit="mm" val="170" />
-    <attnum name="piston area" unit="cm2" val="7" />
+    <attnum name="piston area" unit="cm2" val="20" />
     <attnum name="mu" val="0.25" />
     <attnum name="inertia" unit="kg.m2" val="0.1141" />
   </section>
