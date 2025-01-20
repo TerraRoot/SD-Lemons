@@ -90,7 +90,7 @@
 
 		<!-- Thoses values aren't redefined in car specs-->
 		<attnum name="torque def step" unit="rpm" min="500" max="1000" val="1000"/>
-		<attnum name="inertia" unit="kg.m2" min="0.1" max="0.3" val="0.2"/>
+		<attnum name="inertia" unit="kg.m2" min="0.05" max="0.3" val="0.2"/>
 
 		<!-- Absolute delimiter values -->
 		<attnum name="torque min" unit="N.m" val="0.0"/>
@@ -455,6 +455,8 @@
 		<attnum name="slow rebound" unit="kN/m/s" min="0.1" max="100" val="4"/>
 		<attnum name="fast bump" unit="kN/m/s" min="0.1" max="100" val="2"/>
 		<attnum name="fast rebound" unit="kN/m/s" min="0.1" max="100" val="1"/>
+		<attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
+		<attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
 	</section>
 
 	<section name="Front Left Suspension">
@@ -466,6 +468,8 @@
 		<attnum name="slow rebound" unit="kN/m/s" min="0.1" max="100" val="4"/>
 		<attnum name="fast bump" unit="kN/m/s" min="0.1" max="100" val="2"/>
 		<attnum name="fast rebound" unit="kN/m/s" min="0.1" max="100" val="1"/>
+		<attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
+		<attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
 	</section>
 
 	<section name="Rear Right Suspension">
@@ -477,6 +481,8 @@
 		<attnum name="slow rebound" unit="kN/m/s" min="0.1" max="100" val="5"/>
 		<attnum name="fast bump" unit="kN/m/s" min="0.1" max="100" val="1"/>
 		<attnum name="fast rebound" unit="kN/m/s" min="0.1" max="100" val="1"/>
+		<attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
+		<attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
 	</section>
 
 	<section name="Rear Left Suspension">
@@ -488,6 +494,8 @@
 		<attnum name="slow rebound" unit="kN/m/s" min="0.1" max="100" val="5"/>
 		<attnum name="fast bump" unit="kN/m/s" min="0.1" max="100" val="1"/>
 		<attnum name="fast rebound" unit="kN/m/s" min="0.1" max="100" val="1"/>
+		<attnum max="0.3" min="0.1" name="bump limit velocity" unit="m/s" val="0.1" />
+		<attnum max="0.3" min="0.1" name="rebound limit velocity" unit="m/s" val="0.1" />
 	</section>
 
 	<section name="Front Right Brake">
