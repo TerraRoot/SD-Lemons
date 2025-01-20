@@ -7,7 +7,7 @@ Don't forget to add the Lemons-ClassB.xml to the category folder
 
 **tr-ae86**
 
-model ripped from quake rally afaik, it was a background one, so extremely low qual, not working
+model ripped from quake rally afaik, it was a background one, so extremely low qual, needs more xml polish, working!
  
 **tr-bike**
 
