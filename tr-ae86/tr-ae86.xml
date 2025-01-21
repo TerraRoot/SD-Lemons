@@ -121,14 +121,12 @@
     <attnum name="capacity" unit="l" val="1.6" />
     <attnum name="cylinders" val="4" />
     <attstr in="v,l,h,w" name="shape" val="l" />
-    <attstr in="front,front-mid,mid,rear-mid,rear," name="position" val="rear" />
+    <attstr in="front,front-mid,mid,rear-mid,rear," name="position" val="front" />
     <attnum name="inertia" unit="kg.m2" val="0.1" />
     <attnum name="revs limiter" unit="rpm" val="11000" />
     <attnum name="revs maxi" unit="rpm" val="11000" />
     <attnum name="tickover" unit="rpm" val="1500" />
     <attnum name="fuel cons factor" val="1.2" />
-    <attnum name="brake linear coefficient" val="0.051" />
-    <attnum name="brake coefficient" val="0.052" />
     <section name="data points">
             <section name="1">
         <attnum name="rpm" unit="rpm" val="100" />

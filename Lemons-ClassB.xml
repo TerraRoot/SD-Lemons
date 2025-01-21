@@ -37,15 +37,15 @@
 		<attstr name="category" val="Lemons-ClassB"/>
 		<!-- Body dimensions -->
 		<attnum name="body length" unit="m" min="1.00" max="6.00" val="4.5"/>
-		<attnum name="body width" unit="m" min="1" max="3" val="2.0"/>
+		<attnum name="body width" unit="m" min=".3" max="3" val="2.0"/>
 		<attnum name="body height" unit="m" min="0.8" max="2" val="1.0"/>
 
 		<!-- collision bounding box -->
-		<attnum name="overall length" unit="m" min="1.00" max="6.00" val="4.00"/>
+		<attnum name="overall length" unit="m" min="0.3" max="6.00" val="4.00"/>
 		<attnum name="overall width" unit="m" min="1" max="3" val="1.908"/>
 
 		<attnum name="mass" unit="kg" min="200.0" max="2000" val="1500.0"/>
-		<attnum name="GC height" unit="m" min="0.10" max="0.5" val="0.30"/>
+		<attnum name="GC height" unit="m" min="-0.3" max="0.5" val="0.30"/>
 
 		<!-- weight bias -->
 		<attnum name="front-rear weight repartition" min="0.2" max="0.8" val="0.5"/>
