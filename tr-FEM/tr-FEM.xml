@@ -115,7 +115,7 @@
     <attstr in="v,l,h,w" name="shape" val="l" />
     <attstr in="front,front-mid,mid,rear-mid,rear," name="position" val="front" />
     <attnum name="revs maxi" unit="rpm" min="5000" max="8000" val="8000"/>
-    <attnum name="revs limiter" unit="rpm" min="5000" max="7000" val="7700"/>
+    <attnum name="revs limiter" unit="rpm" min="5000" max="8000" val="7700"/>
     <attnum name="tickover" unit="rpm" min="900" max="2000" val="1000"/>
     <attnum name="fuel cons factor" min="1.0" max="1.4" val="1.0"/>
     <attnum name="inertia" min=".2" max="1.0" unit="kg.m2" val="0.30"/>
@@ -226,7 +226,7 @@
     <attstr name="type" val="RWD"/>
 
     <!-- drive shaft inertia -->
-    <attnum name="inertia" unit="kg.m2" val="0.009"/>
+    <attnum name="inertia" unit="kg.m2" min="0.001" max="0.7" val="0.009"/>
   </section>
 
   <section name="Steer">
@@ -241,7 +241,7 @@
 
   <section name="Front Axle">
     <attnum name="xpos" min="0.5" max="2.5" val="1.32"/>
-    <attnum name="inertia" unit="kg.m2" val="0.005"/>
+    <attnum name="inertia" unit="kg.m2" min="0.001" max="0.7" val="0.005"/>
     <attnum name="roll center height" unit="m" val="0.25"/>
   </section>
 
@@ -262,7 +262,7 @@
       <attstr in="FREE,LIMITED SLIP" name="type" val="LIMITED SLIP" />
       <attnum name="inertia" unit="kg.m2" val="0.0488" />
       <attnum name="max slip bias" min="0" max="50" unit="%" val="5"/>
-      <attnum name="coast max slip bias" min="0" max="50" unit="%" val="20"/>
+      <attnum name="coast max slip bias" min="0" max="50" unit="%" val="10"/>
       <attnum name="locking input torque" min="0" max="50" unit="N.m" val="20"/>
       <attnum name="viscosity factor" min="0" max="50" unit="%" val="20"/>
       <attnum name="min torque bias" min="0" max="50" unit="%" val="20"/>
@@ -281,7 +281,7 @@
     <attnum name="inertia" unit="kg.m2" val="0.6" />
     <attnum name="ride height" max="2000" min="50"  unit="mm" val="150" />
     <attnum name="toe" max="5" min="-5" unit="deg" val="0" />
-    <attnum name="camber" max="5" min="5" unit="deg" val="0" />
+    <attnum name="camber" max="5" min="-5" unit="deg" val="2" />
     <attnum name="stiffness" val="20.0" />
     <attnum name="pressure" min="10" max="50" unit="PSI" val="25" />
     <attnum name="dynamic friction" unit="%" val="70" />
@@ -310,7 +310,7 @@
     <attnum name="inertia" unit="kg.m2" val="0.6" />
     <attnum name="ride height" max="2000" min="50"  unit="mm" val="150" />
     <attnum name="toe" max="5" min="-5" unit="deg" val="0" />
-    <attnum name="camber" max="5" min="5" unit="deg" val="0" />
+    <attnum name="camber" max="5" min="-5" unit="deg" val="2" />
     <attnum name="stiffness" val="20.0" />
     <attnum name="pressure" max="10" min="50" unit="PSI" val="25" />
     <attnum name="dynamic friction" unit="%" val="70" />
@@ -339,7 +339,7 @@
     <attnum name="inertia" unit="kg.m2" val="0.6" />
 	<attnum name="ride height" max="2000" min="50"  unit="mm" val="150" />
     <attnum name="toe" max="5" min="-5" unit="deg" val="0" />
-    <attnum name="camber" max="5" min="5" unit="deg" val="-1" />
+    <attnum name="camber" max="5" min="-5" unit="deg" val="0" />
     <attnum name="stiffness" val="20.0" />
     <attnum name="pressure" max="10" min="50" unit="PSI" val="25" />
     <attnum name="dynamic friction" unit="%" val="70" />
@@ -368,7 +368,7 @@
     <attnum name="inertia" unit="kg.m2" val="0.6" />
     <attnum name="ride height" max="2000" min="50"  unit="mm" val="150" />
     <attnum name="toe" max="5" min="-5" unit="deg" val="0" />
-    <attnum name="camber" max="5" min="5" unit="deg" val="-1" />
+    <attnum name="camber" max="5" min="-5" unit="deg" val="0" />
     <attnum name="stiffness" val="20.0" />
     <attnum name="pressure" max="10" min="50" unit="PSI" val="25" />
     <attnum name="dynamic friction" unit="%" val="70" />
@@ -391,13 +391,13 @@
 
   <section name="Front Anti-Roll Bar">
     <attnum max="100" min="0" name="spring" unit="kN/m" val="8" />
-    <attnum name="suspension course" unit="m" val="0.4" />
+    <attnum name="suspension course" unit="m" max="0.5" min="0.001" val="0.4" />
     <attnum name="bellcrank" min="0" max="40" val="1.0" />
   </section>
 
   <section name="Rear Anti-Roll Bar">
     <attnum max="100" min="0" name="spring" unit="kN/m" val="5" />
-    <attnum name="suspension course" unit="m" val="0.4" />
+    <attnum name="suspension course" unit="m" max="0.5" min="0.001" val="0.4" />
     <attnum name="bellcrank" min="0" max="40" val="1.0" />
   </section>
 

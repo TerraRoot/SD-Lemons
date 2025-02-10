@@ -280,6 +280,7 @@
     </section>
 
   <section name="Front Right Wheel">
+	<attnum name="ride height" unit="mm" min="60" max="280" val="80"/>
     <attnum name="ypos" unit="m" val="-0.68" />
     <attnum name="rim diameter" unit="in" val="14.0" />
     <attnum name="tire width" unit="mm" val="185" />
@@ -309,6 +310,7 @@
 	  </section>
 
   <section name="Front Left Wheel">
+	<attnum name="ride height" unit="mm" min="60" max="280" val="80"/>
     <attnum name="ypos" unit="m" val="0.68" />
     <attnum name="rim diameter" unit="in" val="14.0" />
     <attnum name="tire width" unit="mm" val="185" />
@@ -338,6 +340,7 @@
   </section>
 
   <section name="Rear Right Wheel">
+	<attnum name="ride height" unit="mm" min="60" max="280" val="120"/>
     <attnum name="ypos" unit="m" val="-0.70" />
     <attnum name="rim diameter" unit="in" val="14.0" />
     <attnum name="tire width" unit="mm" val="240" />
@@ -367,6 +370,7 @@
   </section>
 
   <section name="Rear Left Wheel">
+	<attnum name="ride height" unit="mm" min="60" max="280" val="120"/>
     <attnum name="ypos" unit="m" val="0.70" />
     <attnum name="rim diameter" unit="in" val="14.0" />
     <attnum name="tire width" unit="mm" val="240" />

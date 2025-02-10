@@ -298,7 +298,7 @@
 		<attstr name="type" in="NONE,FREE,LIMITED SLIP" val="NONE"/>
       <attnum name="inertia" unit="kg.m2" min="0" max="1" val="0.0488" />
       <attnum name="max slip bias" min="0" max="100" unit="%" val="20"/>
-      <attnum name="coast max slip bias" min="0" max="100" unit="%" val="20"/>
+      <attnum name="coast max slip bias" min="0" max="100" unit="%" val="10"/>
       <attnum name="locking input torque" min="0" max="800" unit="N.m" val="20"/>
       <attnum name="viscosity factor" min="0" max="1000" unit="%" val="20"/>
       <attnum name="min torque bias" min="0" max="100" unit="%" val="20"/>
@@ -360,7 +360,7 @@
 	</section>
 
 	<section name="Front Left Wheel">
-		<attnum name="ypos" unit="m" min="0.5" max="-1.0" val="0.8"/>
+		<attnum name="ypos" unit="m" min="-0.5" max="1.0" val="0.8"/>
 		<attnum name="rim diameter" unit="in" min="0" max="20" val="19.0"/>
 		<attnum name="tire width" unit="mm" min="0" max="255" val="245"/>
 		<attnum name="tire height-width ratio" min="0.30" max="1" val=".35"/>
