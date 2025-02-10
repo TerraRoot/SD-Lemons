@@ -84,8 +84,8 @@
 		<attstr name="position" in="front,front-mid,mid,rear-mid,rear," val="mid"/>
 
 		<attnum name="revs maxi" unit="rpm" min="4000" max="20000" val="10000"/>
-		<attnum name="revs limiter" unit="rpm" min="3000" max="19500" val="8500"/>
-		<attnum name="tickover" unit="rpm" min="500" max="10000" val="3000"/>
+		<attnum name="revs limiter" unit="rpm" min="3000" max="19500" val="10000"/>
+		<attnum name="tickover" unit="rpm" min="500" max="10000" val="1500"/>
 		<attnum name="fuel cons factor" min="1.0" max="2.0" val="1.0"/>
 
 		<!-- Thoses values aren't redefined in car specs-->
